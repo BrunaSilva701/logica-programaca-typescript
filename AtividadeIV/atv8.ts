@@ -13,6 +13,6 @@ type myType = B extends A ? number : string
 const someVar: myType = 5
 // const someVar2: myType = "teste"
 
-type myTypeB = Test extends {showName(): string} ? string : boolean
+type myTypeB = Test extends { showName(): string } ? string : boolean
 
-type myTypeB = Test extends {showNumber(): number} ? string : boolean
+type myTypeC = Test extends { showNumber(): number } ? string : boolean
