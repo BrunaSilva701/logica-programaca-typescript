@@ -1,7 +1,7 @@
 //importar variaveis
 
-export const x = "variavel"
+import { nome, idade, cidade } from "./export";
 
-importGreet();
-import {x} from ".aula2.js";
-console.log(x)
+console.log(nome);
+console.log(idade);
+console.log(cidade);

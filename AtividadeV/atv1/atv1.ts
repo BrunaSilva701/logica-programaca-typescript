@@ -1,5 +1,5 @@
 // importar arquivos
 
-import importGreet from "./aula1.js"
+import importGreet from "./export";
 
-importGreet()
+importGreet();
